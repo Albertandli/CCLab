@@ -1,0 +1,135 @@
+<!-- 
+Template for IMA's Creative Coding Lab 
+
+Project A: Generative Creatures
+CCLaboratories Biodiversity Atlas 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>[ NAME OF YOUR CREATURE ]</title>
+
+    <!-- allow special characters, including Arabic, Chinese, Korean, Japanese, etc. -->
+    <meta charset="UTF-8">
+    <!-- link the style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- import p5.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.3/lib/p5.min.js"></script>
+    <script>
+        // prevent scrolling when spacebar and arrow keys are pressed.
+        window.addEventListener("keydown", function (e) { if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) { e.preventDefault(); } }, false);
+    </script>
+</head>
+
+<body>
+    <!-- title -->
+    <div id="title-wrapper">
+        <h1 class="headline black">[ The Third Person ]</h1>
+    </div>
+
+    <!-- main content -->
+    <div id="main-wrapper">
+        <div id="p5-canvas-container">
+            <!-- This is where your p5 sketch will be appended and appear! -->
+
+        </div>
+        <div class="two-columns">
+            <div class="left">
+                <h3 class="red">Scientific Name:</h3>
+                <p>The Third Person</p>
+
+                <h3 class="red">Discovered by / at:</h3>
+                <p>Discovered by Unretrievable—%$ID:?? at 00:66:6:66:13:█corrupt█Error: 19:|4:∆∆x—
+
+                </p>
+
+                <h3 class="green">Family:</h3>
+                <p>Mirareformes — the Watchers.
+                    A family of dreamcore entities that do not act, but observe with unbearable precision.
+                    They are the ones behind the mirror, inside flashbacks, between the lines of old diaries.
+                </p>
+            </div>
+            <div class="right">
+                <h3 class="green">Habitat:</h3>
+                <p>The third-person self —
+                    That strange, soft camera angle you slip into when you recall childhood.
+                    It lives in the version of you you observe rather than inhabit.
+                    That time you remembered your 10-year-old self sitting alone at lunch — that is where it lives.
+
+                    It does not belong to the past.
+                    It belongs to the act of remembering.
+                </p>
+
+                <h3 class="green">Appearance:</h3>
+                <p>A block-shaped body with matching block-shaped hair that shifts color depending on how many memories
+                    it's been fed. It glows faintly with light blue contours. Its eyes are white when calm, but turn red
+                    when disturbed or angry.
+                </p>
+
+                <h3 class="green">Key Characteristics:</h3>
+                <ul>
+                    <li>
+                        It only loves to see memories, like fireflies — never to feel them. Observation is its only joy.
+                    </li>
+                    <li>
+                        If a memory disappears, no matter the cause, it believes you took it.
+                    </li>
+                    <li>
+                        It often appears as a distant version of you, from an old memory.
+                    </li>
+
+            </div>
+        </div>
+        <div class="one-column">
+            <p>
+                <span class="yellow">What we know so far about [ The Third Person ]?</span>
+                It is not cruel — only incapable of understanding human intimacy.
+                To it, distance is connection. Closeness is theft.
+
+                It may blink into view during lucid dreams, déjà vu, or heavy nostalgia.
+                If you feel you're being watched during a memory — you are.
+
+                It does not forget.
+                It stores nothing, yet it forgets nothing, because it never holds.
+
+
+                <br>
+                <span class="yellow">Guidelines for human interaction with this creature</span> Do not approach.
+                The closer you get, the more the memory collapses.
+
+                Never give it a memory.
+                Let memories drift where it can see them. That is mercy.
+
+                Do not speak to it. It understands gaze, not voice.
+
+                You may watch it back.
+                In quiet agreement. You watch your memory.
+                It watches you watching your memory.
+
+                Never ask it who it is.
+                You already know.
+                You've been it before.
+
+
+
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer" class="black">
+        <p>A CCLab project made by [Your Name] in [Current Semester]</p>
+    </div>
+
+    <!-- Home: Link back to the ATLAS page-->
+    <div id="home">
+        <a href="https://cclab.work/atlas">Back to the ATLAS</a>
+    </div>
+
+    <!-- Include your sketch.js file here -->
+    <script src="sketch.js" type="text/javascript"> </script>
+</body>
+
+</html>

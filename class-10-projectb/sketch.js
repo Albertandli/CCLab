@@ -392,7 +392,7 @@ function draw() {
         textSize(48);
 
         if (elapsedPostLaugh < 10000) {
-          text("You don't get to interfere with their life.", width / 2, height / 2);
+          text("The web is crashing. You must go.", width / 2, height / 2);
         } else if (elapsedPostLaugh < 25000) {
           text("Because this is just a class project.", width / 2, height / 2);
         } else if (elapsedPostLaugh < 40000) {
@@ -718,13 +718,11 @@ function mousePressed() {
           selectedImageIndex = i;
           selected = true;
 
-          // Stop bgMusic
+
           if (bgMusic.isPlaying()) bgMusic.stop();
 
-          // Stop previous speech if any
           if (currentSpeech && currentSpeech.isPlaying()) currentSpeech.stop();
 
-          // Play speech based on which image is clicked
           if (i === 0) currentSpeech = speech3;
           else if (i === 1) currentSpeech = speech2;
           else if (i === 2) currentSpeech = speech1;
